@@ -1,0 +1,83 @@
+/*type d'écriture*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Barlow', sans-serif;
+  }
+  
+  /*header */
+  .header{
+    background-color: rgba(184, 11, 0, 1);
+    height: 80px;
+    margin: none;
+  }
+  
+  /**/
+  nav ul li{
+    line-height: 7px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+  }
+  /**/
+  ul li a{
+  
+    color: white;
+    letter-spacing: 0.1rem;
+  }
+  
+  /*couleur pour les mots (À PROPOS, CONTACT, FAITS ET STATISTIQUES...)*/
+  ul li a{
+    color: white;
+    text-decoration:none ;
+  }
+  
+  /*Les parametres pour le petit paragraph qui parle des raptors*/
+  .text-box{
+    margin-top:130px;
+    max-width:600px;
+    right:20%;
+    position: relative;
+    left: 100px;
+    font-size: 20px;
+  }
+    /*Le titre de la page (Toronto Raptors) */
+    h1{
+  font-size: 45px;
+  margin-bottom: 40px;
+  color:crimson;
+  font-weight: 800;
+  }
+  
+  /*Le bouton inscrivez-vous*/
+  .text-box a{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    background: #3f51b5;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top:50px;
+    border-radius: 6px; 
+  
+  }
+  /*Image du joueur de basket qui dunk */
+  .image{
+    padding-top: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 30%;
+  }
+  
+    
+  /*Le logo */
+  .logo img{
+    margin-left: 200px;
+  }
+  /* surligne les mots de la barre de navigation quand on met la souris dessus */
+  .header a:hover {
+    text-decoration: underline;
+    
+  }
