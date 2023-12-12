@@ -1,0 +1,78 @@
+/*type d'écriture*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Barlow', sans-serif;
+  
+    /*header*/
+  }
+  .header{
+    background-color: rgba(184, 11, 0, 1);
+    height: 80px;
+    margin: none;
+  }
+  
+  /*display*/
+  
+  nav ul li{
+    line-height: 7px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+  }
+  
+    /*couleur du texte de la barre de navigation*/
+  
+  ul li a{
+  
+    color: white;
+    letter-spacing: 0.1rem;
+  
+  }
+  
+    /**/
+  ul li a{
+    color: white;
+    text-decoration: none;
+  }
+    
+    /*Logo */
+  
+    .logo img{
+      margin-left: 100px;
+    }
+  
+    /*body */
+    
+    body {
+      font-size: 1em;
+      background-image: url(images/image\ 66.png);
+      background-repeat: no-repeat;
+      background-size: 170%;
+    }
+  
+    /* la couleur de la page(À prpos)*/
+  
+    h1{
+     color:aliceblue;
+    }
+  
+    /*La couleur des sous-titres(Aspect visuel, notre équipe, autre ajouts...)*/
+  
+    h2{
+      color:aliceblue
+      
+    }
+  
+  /* La couleur du texte*/
+  
+    h4{
+      color:aliceblue;
+        line-height: 2.0;
+    }
+    /* Change la couleur du background quand on est sur les mots( */
+  .header a:hover {
+    text-decoration: underline;
+    
+  }
