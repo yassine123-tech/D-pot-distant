@@ -1,0 +1,288 @@
+/*type d'écriture*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  /*header */
+  .header {
+    background-color: rgba(184, 11, 0, 1);
+    height: 80px;
+    margin: none;
+  }
+  
+  /*barre de navigation*/
+  nav ul li {
+    line-height: 7px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+  }
+  /*Couleur pour les mots (À PROPOS, CONTACT, FAITS ET STATISTIQUES...)*/
+  ul li a {
+    color: white;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+  }
+  
+ 
+  
+  /*Le logo */
+  .logo img {
+    margin-left: 200px;
+  }
+  /* souligne les mots de la barre de navigation quand on met la souris dessus */
+  .header a:hover {
+    text-decoration: underline;
+  }
+
+.header{
+    background-color: rgba(184, 11, 0, 1);
+    height: 120px;
+    margin: none;
+}
+
+
+nav ul li{
+    top: 60px;
+    line-height: 7px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a{
+    padding-top: 60px;
+    color: white;
+    letter-spacing: 0.1rem;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* premiére section */
+
+.premiereSection{
+    position: relative;
+}
+
+
+.premiereSection img{
+    max-width: max-content;
+    height: max-content;
+
+    /* premiére section, cartes des joueurs */
+
+}
+
+.joueur1 img{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+}
+.joueur2 img{
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+
+.joueur3 img{
+    position: absolute;
+    top: 0px;
+    left: 750px;
+}
+
+.joueur4 img{
+    position: absolute;
+    top: 0px;
+    left: 1100px;
+}
+.joueur5 img{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+.joueur6 img{
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+.joueur7 img{
+    position: absolute;
+    top: 350px;
+    left: 400px;
+}
+.joueur8 img{
+    position: absolute;
+    top: 350px;
+    left: 750px;
+}
+.joueur9 img{
+    position: absolute;
+    top: 700px;
+    left: 1100px;
+}
+.joueur11 img{
+    position: absolute;
+    top: 700px;
+    left: 400px;
+}
+.joueur12 img{
+    position: absolute;
+    top: 700px;
+    left: 750px;
+}
+.joueur13 img{
+    position: absolute;
+    top: 350px;
+    left: 1100px;
+}
+
+/* premiére section, nom des joueurs */
+.Jalen img{
+    position: absolute;
+    top: 200px;
+    left: 760px;
+}
+
+.Scottie img{
+    position: absolute;
+    top: 550px;
+    left: 80px;
+
+}
+.Precious img{
+    position: absolute;
+    top: 550px;
+    left: 765px;
+
+}
+.Ron img{
+    position: absolute;
+    top: 550px;
+    left: 430px;
+
+}
+.Garett img{
+    position: absolute;
+    top: 900px;
+    left: 80px;
+
+}
+.Dennis img{
+    position: absolute;
+    top: 900px;
+    left: 1115px;
+
+}
+.Jakob img{
+    position: absolute;
+    top: 900px;
+    left: 435px;
+}
+.Thaddeus img{
+    position: absolute;
+    top: 900px;
+    left: 765px;
+}
+.Malachi img{
+    position: absolute;
+    top: 550px;
+    left: 1140px;
+}
+
+/* deuxième section */
+
+.deuxiemeSection{
+    position: relative;
+}
+
+
+.deuxiemeSection img{
+    max-width: 100%;
+    height: auto;
+
+
+    /* deuxième section, cartes des joueurs */
+}
+.joueur10 img{
+    position: absolute;
+    top: 1150px;
+    left: 50px;
+}
+.joueur14 img{
+    position: absolute;
+    top: 1150px;
+    left: 400px;
+}
+
+.joueur15 img{
+    position: absolute;
+    top: 1150px;
+    left: 750px;
+}
+
+.joueur16 img{
+    position: absolute;
+    top: 1150px;
+    left: 1100px;
+}
+.joueur17 img{
+    position: absolute;
+    top: 1500px;
+    left: 50px;
+}
+.joueur18 img{
+    position: absolute;
+    top: 1500px;
+    left: 400px;
+}
+
+/* deuxième section, nom des joueurs */
+
+.Markquis{
+    position: absolute;
+    top: 1350px;
+    left: 70px;
+
+}
+.Otto{
+    position: absolute;
+    top: 1350px;
+    left: 1140px;
+
+}
+.Chris{
+    position: absolute;
+    top: 1700px;
+    left: 435px;
+    
+}
+
+
+
+/* troisième section */
+
+.troisiemeSection{
+    position: relative;
+}
+
+
+.troisiemeSection img{
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+embed{
+    position: absolute;
+    top: 800px;
+    left: 300px;
+
+}
+
