@@ -1,0 +1,1 @@
+ces fichiers sont pour le site web. Yassine a créé la page accueil et la page à propos, Abderrahmane a créé la page histoire et la page vestiares et Mahdi a créé la page contact et la page faits et statistiques.
